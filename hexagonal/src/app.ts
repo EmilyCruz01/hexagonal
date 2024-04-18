@@ -25,7 +25,7 @@ app.use(function(req, res, next) {
 async function iniciarServidor(){
     try {
         await correrBaseDatos();
-        app.listen(3000, ()=>{
+        app.listen(443, ()=>{
             console.log("Servidor corriendo en el puerto 3000");
         })
     } catch (error) {
