@@ -45,7 +45,7 @@ function iniciarServidor() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             yield (0, database_1.correrBaseDatos)();
-            app.listen(3000, () => {
+            app.listen(443, () => {
                 console.log("Servidor corriendo en el puerto 3000");
             });
         }
